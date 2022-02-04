@@ -1,0 +1,222 @@
+/*cart*/
+
+.shopping-cart h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.cart-header {
+  background-color: rgb(53, 209, 53);
+}
+
+/*cartItem*/
+
+.cart-item {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  align-items: center;
+  margin: 0 50px;
+  padding: 0 20px;
+  height: 50px;
+  border-bottom: 3px solid yellow;
+}
+
+.cart-item div {
+  padding: 0 20px;
+}
+
+.cart-item button {
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(59, 216, 59);
+  color: black;
+  width: 100%;
+  height: 25px;
+}
+
+/*.cart-item button:hover {
+  cursor: pointer;
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.5);
+}*/
+
+/*navbar*/
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 10px;
+  background-color: yellowgreen;
+  height: 55px;
+}
+
+.nav-item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item:hover {
+  /*border-bottom: 3px solid black;*/
+  cursor: pointer;
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 5px rgba(191, 233, 6, 0.5);
+  border-top: 5px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*product*/
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 50px;
+  border-radius: 10px;
+  border: 3px solid black;
+  text-align: left;
+  padding: 10px 25px;
+  height: 250px;
+  width: 350px;
+}
+
+.product-item:hover {
+  background-color: beige;
+  cursor: pointer;
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.5);
+  border: 3px solid beige;
+}
+
+.product-img {
+  height: 100%;
+  width: auto;
+}
+
+.product-item h3 {
+  color: #444444;
+}
+
+/*productDetails*/
+
+.product-details {
+  align-items: flex-start;
+  background-image: url(https://www.publicdomainpictures.net/pictures/30000/nahled/solid-green-background.jpg);
+}
+
+.product-detail {
+  width: 100%;
+}
+
+.product-detail h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.product-detail img {
+  max-height: 400px;
+  display: inline-block;
+  margin: 0 300px;
+}
+
+.details-data {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  padding: 20px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  background-color: greenyellow;
+}
+
+.details-data h2 {
+  justify-self: start;
+}
+
+.details-data p {
+  justify-self: end;
+}
+
+/*ProductDetailsForm*/
+
+.diameter {
+  padding: 15px;
+  border-radius: 10px;
+  width: 60%;
+  margin: auto;
+}
+
+.material {
+  padding: 15px;
+  width: 60%;
+  margin: auto;
+}
+
+.amount {
+  padding: 15px;
+  width: 60%;
+  margin: auto;
+}
+
+.btn {
+  width: 240px;
+  height: 32px;
+  border-radius: 15px;
+  background-color: yellowgreen;
+  border: 1px solid black;
+  display: block;
+  margin: 10px auto;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.5);
+  border: 1px solid beige;
+}
+
+#materials {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.diameter label:hover,
+.diameter input:hover {
+  cursor: pointer;
+}
+
+#amount {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(128, 128, 128);
+  padding: 0 10px;
+}
+
+/*ProductList*/
+
+.product-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url(https://www.publicdomainpictures.net/pictures/30000/nahled/solid-green-background.jpg);
+}
+
+.product-list h1 {
+  text-align: center;
+  margin: 20px 0;
+}
